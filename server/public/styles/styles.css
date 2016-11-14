@@ -1,1 +1,34 @@
-/* empty */
+label {
+  display: inline-block;;
+  width: 6%;
+  margin: 5px 0;
+}
+
+input {
+  display: inline-block;
+  width: 23%;
+}
+
+#addButton {
+  margin-left: 13%;
+}
+
+.jokes {
+  width: 30%;
+}
+
+.joke {
+  background-color: #FFD700;
+  box-shadow: 5px 5px 3px lightgrey;
+  padding: 5px 15px;
+  margin: 10px 5px;
+}
+
+.jokeQuestion {
+  font-weight: bold;
+}
+
+.whoseJoke {
+  text-align: right;
+  font-style: italic;
+}
