@@ -31,6 +31,8 @@ app.get('/jokes', function(req, res) {
 });
 
 app.post('/joke', function(req, res) {
+  jokes.push(req.body);
+  console.log(jokes);
   console.log('post /');
   res.sendStatus(201);
 });
